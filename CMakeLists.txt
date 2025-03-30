@@ -83,7 +83,7 @@ if(CMAKE_Fortran_COMPILER_ID MATCHES "GNU")
     set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -fPIC")
   endif()
 elseif(CMAKE_Fortran_COMPILER_ID MATCHES "Cray")
-  set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -s -fpic")
+  set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -fpic")
 endif()
 
 if(CMAKE_C_COMPILER_ID MATCHES "GNU")
